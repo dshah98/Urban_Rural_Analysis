@@ -65,7 +65,7 @@ HHCor = subset(DataUrban, select = c(12, 15))
 
 str(HHCor)
 
-
+library(corrplot)
 corrplot(cor(HHCor), method = "number")
 
 # correlation does not imply causation [principle]

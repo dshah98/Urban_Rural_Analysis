@@ -44,4 +44,4 @@ boxplot(Sel_RoofData, beside=T,
         ylab = "Values")
 
 # T-Test
-t.test(Sel_RoofData)
+chisq.test(Sel_RoofData)
